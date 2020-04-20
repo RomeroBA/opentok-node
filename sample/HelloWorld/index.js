@@ -18,7 +18,7 @@ if (!apiKey || !apiSecret) {
 // Starts the express app
 function init() {
   app.listen(3000, function () {
-    console.log('You\'re app is now ready at http://localhost:3000/');
+    console.log('Your app is now ready at http://localhost:3000/');
   });
 }
 
